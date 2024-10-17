@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bakhtawar E-commerceWali - Learning E-commerce and Digital Education">
+    <title>Bakhtawar E-commerceWali - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <img src="image1.png" alt="Bakhtawar's Profile Picture">
+        <h1>Bakhtawar E-commerceWali</h1>
+        <p>Learning and growing in e-commerce, digital education, and empowering change-makers. Let’s connect and build a better digital future together!</p>
+        <a href="#contact" class="btn">Get in Touch</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Assalam-o-Alaikum! I’m Bakhtawar, passionate about learning digital education and e-commerce. I’m growing my skills in AI, networking, and social media management. My mission is to empower individuals in the digital world. Currently studying at Rehan School, I aim to face challenges with my abilities and help others succeed digitally!</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <p>AI Enthusiast | Networking | Social Media Management | Podcasting | E-commerce Learner</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Working on e-commerce platforms, digital podcasts, and social media growth strategies. Stay tuned for more updates!</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you want to connect with me, feel free to reach out via email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Bakhtawar E-commerceWali. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
