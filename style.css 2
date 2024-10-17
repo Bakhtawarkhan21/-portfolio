@@ -1,0 +1,111 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #333;
+    padding: 15px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Hero Section */
+#hero {
+    background-color: #4CAF50;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#hero img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-bottom: 20px;
+}
+
+#hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    max-width: 600px;
+}
+
+.btn {
+    background-color: white;
+    color: #4CAF50;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #45a049;
+    color: white;
+}
+
+/* About Section */
+#about, #skills, #projects, #contact {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+#about h2, #skills h2, #projects h2, #contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+#about p, #skills p, #projects p, #contact p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
